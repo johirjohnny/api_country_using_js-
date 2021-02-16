@@ -8,7 +8,7 @@ const displayCountries = countries => {                    //a function with cou
         const countryDiv = document.createElement('div');               //countryDiv or li create
         countryDiv.className = 'country';            
         const countryInfo = `
-        <h3 class="country-name" > ${country.name}</h3>
+        <h3 class="country-name" > ${country.name}</h3>          //foreach country er jonno name 
         <p> ${country.capital}</p>
         <button onclick = "displayCountryDetail('${country.name}')">show detail </button>
         `;
